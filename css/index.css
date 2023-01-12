@@ -1,0 +1,34 @@
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+
+img{
+	max-width: 100%;
+}
+.container {
+    max-width: 1350px !important;
+}
+.hover_format{
+	transition: all 0.5s !important;
+	cursor: pointer;
+}
+.hover_format:hover{
+	background-color: #FCF3CF  !important;
+}
+.warning_green{
+	background-color: #16A085;
+	font-weight: 500;
+	color: white;
+}
+
+.warning_red{
+	background-color: #E74C3C;
+	font-weight: 500;
+	color: white;
+}
+
+.warning_medium{
+	background-color: #F39C12;
+	font-weight: 500;
+	color: white;
+}
